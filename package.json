@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.535"
@@ -23,6 +24,7 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./tests/ts-resolve.mjs --test \"tests/**/*.test.ts\""
   }
 }

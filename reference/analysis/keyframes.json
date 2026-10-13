@@ -1,0 +1,13 @@
+{
+  "note": "Global frames used by scripts/compare/compare.sh. P2 set: top bar / counter / background checkpoints. Later phases add per-scene frames (PLAN.md §4).",
+  "frames": [
+    { "frame": 0, "why": "first frame, counter 0001, no title" },
+    { "frame": 30, "why": "background reference sample" },
+    { "frame": 704, "why": "title slide-in midway" },
+    { "frame": 1000, "why": "steady top bar with title + counter" },
+    { "frame": 3880, "why": "rewind counter 2097" },
+    { "frame": 4040, "why": "counter moving/shrinking" },
+    { "frame": 4200, "why": "counter + title hidden, logo only" },
+    { "frame": 4409, "why": "last frame, counter 4410" }
+  ]
+}
